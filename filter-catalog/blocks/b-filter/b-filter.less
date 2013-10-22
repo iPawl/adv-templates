@@ -1,0 +1,48 @@
+.b-filter {
+  color: #333333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  clear: both;
+  list-style: none outside none;
+  margin: 0 0 20px 0;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  &__link {
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    line-height: 14px;
+    margin-right: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: block;
+    color: #0088CC;
+    text-decoration: none;
+
+    &:hover {
+      color: #005580;
+    }
+  }
+
+  &__item {
+    float: left;
+    line-height: 20px;
+
+    &._pressed .b-filter__link {
+      color: #ffffff;
+      background-color: #0088cc;
+    }
+  }
+
+}
