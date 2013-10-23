@@ -1,54 +1,42 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Каталог</title>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" href="/css/all.css"/>
-</head>
+  <head>
+    <title>Главная</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="css/all.css">
+  </head>
+</html>
 <body>
-<div class="b-container">
-    <ul class="b-filter js-widget" onclick="return {widget: 'filter', options: {index:0}}" >
-        <li class="b-filter__item" data-url="brand-1.html"><a href="#" class="b-filter__link">Бренд 1</a></li>
-        <li class="b-filter__item" data-url="brand-2.html"><a href="#" class="b-filter__link">Бренд 2</a></li>
-        <li class="b-filter__item" data-url="brand-3.html"><a href="#" class="b-filter__link">Бренд 3</a></li>
-    </ul>
-    <div class="b-catalog js-widget" onclick="return {widget: 'catalog'}">
-        <div class="b-catalog__item">
-            <div class="b-catalog__photo"></div>
-            <div class="b-catalog__description">
-                <h3 class="b-catalog__title">Бренд 1</h3>
-                смартфон на платформе Android сенсорный экран мультитач (емкостный)
-                диагональ экрана 5", разрешение 1080x1920 камера 13 МП, светодиодная вспышка, автофокус память 16 Гб,
-                карты памяти microSD (TransFlash) поддержка Bluetooth, NFC, Wi-Fi, 3G, GPS, ГЛОНАСС вес 130 г, ШxВxТ
-                69.80x136.60x7.90 мм, акк. 2600 мАч
+    <div class="b-container">
+        <ul onclick="return {widget: 'filter', options: {index:0}}" class="b-filter js-widget">
+          <li data-url="brand-1.html" class="b-filter__item"><a href="#" class="b-filter__link">Бренд 1</a></li>
+          <li data-url="brand-2.html" class="b-filter__item"><a href="#" class="b-filter__link">Бренд 2</a></li>
+          <li data-url="brand-3.html" class="b-filter__item"><a href="#" class="b-filter__link">Бренд 3</a></li>
+        </ul>
+        <div onclick="return {widget: 'catalog', options: {ajaxUrl: 'ajax/'}}" class="b-catalog js-widget">
+            <div class="b-product">
+              <div class="b-product__photo"></div>
+              <div class="b-product__description">
+                <h3 class="b-product__title">Бренд 1</h3>Тут краткое описание товара
+              </div>
             </div>
-        </div>
-        <div class="b-catalog__item">
-            <div class="b-catalog__photo"></div>
-            <div class="b-catalog__description">
-                <h3 class="b-catalog__title">Бренд 1</h3>
-                смартфон на платформе Android сенсорный экран мультитач (емкостный)
-                диагональ экрана 5", разрешение 1080x1920 камера 13 МП, светодиодная вспышка, автофокус память 16 Гб,
-                карты памяти microSD (TransFlash) поддержка Bluetooth, NFC, Wi-Fi, 3G, GPS, ГЛОНАСС вес 130 г, ШxВxТ
-                69.80x136.60x7.90 мм, акк. 2600 мАч
+            <div class="b-product">
+              <div class="b-product__photo"></div>
+              <div class="b-product__description">
+                <h3 class="b-product__title">Бренд 1</h3>Тут краткое описание товара
+              </div>
             </div>
-        </div>
-        <div class="b-catalog__item">
-            <div class="b-catalog__photo"></div>
-            <div class="b-catalog__description">
-                <h3 class="b-catalog__title">Бренд 1</h3>
-                смартфон на платформе Android сенсорный экран мультитач (емкостный)
-                диагональ экрана 5", разрешение 1080x1920 камера 13 МП, светодиодная вспышка, автофокус память 16 Гб,
-                карты памяти microSD (TransFlash) поддержка Bluetooth, NFC, Wi-Fi, 3G, GPS, ГЛОНАСС вес 130 г, ШxВxТ
-                69.80x136.60x7.90 мм, акк. 2600 мАч
+            <div class="b-product">
+              <div class="b-product__photo"></div>
+              <div class="b-product__description">
+                <h3 class="b-product__title">Бренд 1</h3>Тут краткое описание товара
+              </div>
             </div>
         </div>
     </div>
-</div>
-<script src="/js/jquery-1.9.1.js"></script>
-<script src="/js/jquery-ui-1.10.3.custom.js"></script>
-<script src="/blocks/b-filter/b-filter.js"></script>
-<script src="/blocks/b-catalog/b-catalog.js"></script>
-<script src="/js/all.js"></script>
+  <script src="js/jquery-1.9.1.js"></script>
+  <script src="js/jquery-ui-1.10.3.custom.js"></script>
+  <script src="blocks/b-filter/b-filter.js"></script>
+  <script src="blocks/b-catalog/b-catalog.js"></script>
+  <script src="js/all.js"></script>
 </body>
-</html>

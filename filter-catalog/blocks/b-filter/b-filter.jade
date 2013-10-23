@@ -1,0 +1,7 @@
+mixin b-filter(list)
+    -if (list)
+        ul.b-filter.js-widget(onclick="return {widget: 'filter', options: {index:0}}")
+            -list.forEach(function(item){
+                li.b-filter__item(data-url='#{item.url}')
+                    a.b-filter__link(href='#') #{item.text}
+            -})
