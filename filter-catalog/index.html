@@ -14,22 +14,25 @@
           <li data-url="brand-3.html" class="b-filter__item"><a href="#" class="b-filter__link">Бренд 3</a></li>
         </ul>
         <div onclick="return {widget: 'catalog', options: {ajaxUrl: 'ajax/'}}" class="b-catalog js-widget">
-            <div class="b-product">
+            <div onclick="return {widget: 'product', options: {id:475}}" class="b-product js-widget">
               <div class="b-product__photo"></div>
               <div class="b-product__description">
-                <h3 class="b-product__title">Бренд 1</h3>Тут краткое описание товара
+                <h3 class="b-product__title">Бренд 1</h3>
+                <p class="b-product__text">Тут краткое описание товара</p><a href="#" class="b-product__add-to-cart">В корзину</a>
               </div>
             </div>
-            <div class="b-product">
+            <div onclick="return {widget: 'product', options: {id:477}}" class="b-product js-widget">
               <div class="b-product__photo"></div>
               <div class="b-product__description">
-                <h3 class="b-product__title">Бренд 1</h3>Тут краткое описание товара
+                <h3 class="b-product__title">Бренд 1</h3>
+                <p class="b-product__text">Тут краткое описание товара</p><a href="#" class="b-product__add-to-cart">В корзину</a>
               </div>
             </div>
-            <div class="b-product">
+            <div onclick="return {widget: 'product', options: {id:478}}" class="b-product js-widget">
               <div class="b-product__photo"></div>
               <div class="b-product__description">
-                <h3 class="b-product__title">Бренд 1</h3>Тут краткое описание товара
+                <h3 class="b-product__title">Бренд 1</h3>
+                <p class="b-product__text">Тут краткое описание товара</p><a href="#" class="b-product__add-to-cart">В корзину</a>
               </div>
             </div>
         </div>
@@ -38,5 +41,6 @@
   <script src="js/jquery-ui-1.10.3.custom.js"></script>
   <script src="blocks/b-filter/b-filter.js"></script>
   <script src="blocks/b-catalog/b-catalog.js"></script>
+  <script src="blocks/b-product/b-product.js"></script>
   <script src="js/all.js"></script>
 </body>
