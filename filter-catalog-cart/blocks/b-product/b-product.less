@@ -1,0 +1,82 @@
+.b-product {
+  padding: 10px;
+  overflow: hidden;
+
+  &__photo {
+    height: 120px;
+    margin: 0 20px 0 0;
+    width: 160px;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+    display: block;
+    float: left;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAB4CAYAAAB1ovlvAAACaElEQVR4nO3XQW7aQBiA0dz/KF57y5K9D8AZuAJdGQ2uA00b6WvMWzwpYcA/Ep/G44/r9XqDykf9BXhvAiQlQFICJCVAUgIkJUBSAiQlQFICJCVAUgIkJUBSAiQlQFICJCVAUgIkJUBSAiQlQFICJCVAUgIkJUBSAiQlQFICJCVAUgIkJUBSAiQlQFICJCVAUgIkJUBSAiQlQFICJCVAUgIkJUBSAiQlQFICJCVAUgIkJUBSAiQlQFICJCVAUm8T4LIst2mabsuyPLx+Pp9v0zTdpmm6nU6nh7V5nu9r28/97bz1et8976d6iwDHyMYfdn19L5hxbf37crn807zT6XS/5uVy+bZ5P9nhAxxj2AYxz/Nvu9C4Ns/zQyzn8/m+tg13XXs2b2vcBZ/NO7K3CHBZlnsYYxBrAGss4w++vUWO/6+BrJ9dw3k1b/u9xpnP5h3Z4QPc/uDbAD+7Bb8KYgx3L7JnAa6zxtusAA/u2Q54vT7uan8SxPr+cfd7NW/83Fd23CN76wC3Z8CvnMnGJ9a9s9pnAT57AnYGPLC9IManzWdPwevaerscr7WGuH1i3Zu3d2bcvn9v3pG9dYBjFHs7zmfnvDGi7a372bzx6XhvJ3x1rjyitwmQ/5MASQmQlABJCZCUAEkJkJQASQmQlABJCZCUAEkJkJQASQmQlABJCZCUAEkJkJQASQmQlABJCZCUAEkJkJQASQmQlABJCZCUAEkJkJQASQmQlABJCZCUAEkJkJQASQmQlABJCZCUAEkJkJQASQmQlABJCZCUAEkJkJQASQmQlABJCZCUAEkJkJQASQmQ1C9XI10qYM788AAAAABJRU5ErkJggg==);
+  }
+
+  &__description {
+    overflow: hidden;
+  }
+
+  &__text {
+    margin: 0 0 10px 0;
+  }
+
+  &__title {
+    margin: 0 0 10px 0;
+  }
+
+  &__add-to-cart {
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    border-bottom-color: #b3b3b3;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #006dcc;
+    *background-color: #0044cc;
+    background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+    background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+    background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+    background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+    background-repeat: repeat-x;
+    border-color: #0044cc #0044cc #002a80;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  }
+
+  &__add-to-cart:hover {
+    color: #ffffff;
+    background-color: #0044cc;
+    background-position: 0 -15px;
+    -webkit-transition: background-position 0.1s linear;
+    -moz-transition: background-position 0.1s linear;
+    -o-transition: background-position 0.1s linear;
+    transition: background-position 0.1s linear;
+  }
+
+  &__add-to-cart:active {
+    color: #ffffff;
+    background-color: #0044cc;
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+}
