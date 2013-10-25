@@ -1,5 +1,5 @@
 (function ($) {
-    var o = window.ggg = $({});
+    var o = $({});
     $.subscribe = function () {
         o.on.apply(o, arguments);
     };
@@ -9,6 +9,7 @@
     $.publish = function () {
         o.trigger.apply(o, arguments);
     };
+    window.rx = o;
 }(jQuery));
 /*! jQuery UI - v1.10.3 - 2013-10-21
 * http://jqueryui.com

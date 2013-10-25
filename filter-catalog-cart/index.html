@@ -8,28 +8,28 @@
 </html>
 <body>
     <div class="b-container">
-        <div class="b-card">В корзине:&nbsp;<span class="b-card__sum">0</span></div>
+        <div onclick="return {widget: 'cart'}" class="b-cart js-widget">В корзине:&nbsp;<span class="b-cart__sum">0</span></div>
         <ul onclick="return {widget: 'filter', options: {index:0}}" class="b-filter js-widget">
           <li data-url="brand-1.html" class="b-filter__item"><a href="#" class="b-filter__link">Бренд 1</a></li>
           <li data-url="brand-2.html" class="b-filter__item"><a href="#" class="b-filter__link">Бренд 2</a></li>
           <li data-url="brand-3.html" class="b-filter__item"><a href="#" class="b-filter__link">Бренд 3</a></li>
         </ul>
         <div onclick="return {widget: 'catalog', options: {ajaxUrl: 'ajax/'}}" class="b-catalog js-widget">
-            <div onclick="return {widget: 'product', options: {id:709}}" class="b-product js-widget">
+            <div onclick="return {widget: 'product', options: {id:139}}" class="b-product js-widget">
               <div class="b-product__photo"></div>
               <div class="b-product__description">
                 <h3 class="b-product__title">Бренд 1</h3>
                 <p class="b-product__text">Тут краткое описание товара</p><a href="#" class="b-product__add-to-cart">В корзину</a>
               </div>
             </div>
-            <div onclick="return {widget: 'product', options: {id:711}}" class="b-product js-widget">
+            <div onclick="return {widget: 'product', options: {id:141}}" class="b-product js-widget">
               <div class="b-product__photo"></div>
               <div class="b-product__description">
                 <h3 class="b-product__title">Бренд 1</h3>
                 <p class="b-product__text">Тут краткое описание товара</p><a href="#" class="b-product__add-to-cart">В корзину</a>
               </div>
             </div>
-            <div onclick="return {widget: 'product', options: {id:712}}" class="b-product js-widget">
+            <div onclick="return {widget: 'product', options: {id:142}}" class="b-product js-widget">
               <div class="b-product__photo"></div>
               <div class="b-product__description">
                 <h3 class="b-product__title">Бренд 1</h3>
@@ -43,5 +43,6 @@
   <script src="blocks/b-filter/b-filter.js"></script>
   <script src="blocks/b-catalog/b-catalog.js"></script>
   <script src="blocks/b-product/b-product.js"></script>
+  <script src="blocks/b-cart/b-cart.js"></script>
   <script src="js/all.js"></script>
 </body>

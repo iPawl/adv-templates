@@ -17,13 +17,11 @@ $.widget('adv.filter', {
                 target.addClass('_pressed');
                 _this._last.removeClass('_pressed');
                 _this._last = target;
-                $.publish('ajax.filter', {param: target.attr('data-url')});
+                $.publish('ajax.filter', {param: target.attr('data-url')}); // публикуем события и данные фильтра
             },
             "click a": function (e) {
                 e.preventDefault();
             }
         });
-    },
-    _destroy: function () {
     }
 });
