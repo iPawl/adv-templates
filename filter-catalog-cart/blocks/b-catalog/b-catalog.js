@@ -2,7 +2,7 @@ $.widget('adv.catalog', {
     options: {ajaxUrl: '/ajax/'},
     _create: function () {
         var _this = this;
-        $.subscribe('ajax.filter', $.proxy(_this._render, _this));
+        $.subscribe('ajax.filter', $.proxy(_this._render, _this)); // подписываемся на события от блока фильтра
     },
     _render: function () {
         var _this = this,
