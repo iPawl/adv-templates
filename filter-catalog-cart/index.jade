@@ -5,17 +5,18 @@ html
         meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
         link(rel="stylesheet", href="css/all.css")
 body
-    include all
+    include blocks/all
     +b-container
         +b-cart
         +b-filter([{text:'Бренд 1', url:'brand-1.html'},{text:'Бренд 2', url:'brand-2.html'},{text:'Бренд 3', url:'brand-3.html'}])
         +b-catalog
             +b-product([{title:'Бренд 1', description:'Тут краткое описание товара'},{title:'Бренд 1', description:'Тут краткое описание товара'},{title:'Бренд 1', description:'Тут краткое описание товара'}])
 
-    script(src='js/jquery-1.9.1.js')
-    script(src='js/jquery-ui-1.10.3.custom.js')
+    script(src='js/jquery-1.9/jquery-1.9.1.js')
+    script(src='js/plugins/tiny-pubsub.js')
+    script(src='js/jquery-ui-1.10.3/jquery.ui.widget.js')
     script(src='blocks/b-filter/b-filter.js')
     script(src='blocks/b-catalog/b-catalog.js')
     script(src='blocks/b-product/b-product.js')
     script(src='blocks/b-cart/b-cart.js')
-    script(src='js/all.js')
+    script(src='js/main/main.js')
