@@ -6,7 +6,14 @@
 Папка блока содержит файлы блока: `.less`, `.css`, `.js`, `.jade`,`.html`, readme и т.п. 
 Фалы к блоку именуются именем блока.
 
-JavaScript функционал блока описан в виде [jQuery UI виджета](http://api.jqueryui.com/jQuery.widget/).
+#### Особенности
+
+* JavaScript функционал блока описан в виде [jQuery UI виджета](http://api.jqueryui.com/jQuery.widget/);
+* HTML препроцессор [Jade](http://jade-lang.com/) для удобной сборки страниц из БЭМ блоков;
+* CSS препроцессор [LESS](http://lesscss.org/);
+* Сборка всех js файлов в один осуществляется [Grunt](http://gruntjs.com/).
+
+
 ## Виджеты (блоки)
 1. [Фильтр](#Фильтр)
 2. [Каталог](#Каталог)
