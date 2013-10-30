@@ -7,7 +7,7 @@
 Фалы к блоку именуются именем блока.
 
 #### Особенности
-
+* [БЭМ](http://ru.bem.info/) – методология независимых блоков.
 * [jQuery UI Widget](http://api.jqueryui.com/jQuery.widget/) – описание функционала блока;
 * [Tiny Pub/Sub](https://github.com/cowboy/jquery-tiny-pubsub) – публикация событий и подписка на них (магистраль данных от виджетов).
 * [Jade](http://jade-lang.com/) – HTML препроцессор для удобной сборки страниц из БЭМ блоков;
