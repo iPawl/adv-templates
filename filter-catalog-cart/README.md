@@ -11,8 +11,8 @@
 * [jQuery UI Widget](http://api.jqueryui.com/jQuery.widget/) – описание функционала блока;
 * [Tiny Pub/Sub](https://github.com/cowboy/jquery-tiny-pubsub) – публикация событий и подписка на них (магистраль данных от виджетов).
 * [Jade](http://jade-lang.com/) – HTML препроцессор для удобной сборки страниц из БЭМ блоков;
-* [LESS](http://lesscss.org/)– CSS препроцессор;
-* [Grunt](http://gruntjs.com/) – cборка всех js файлов в один (конкатенация, минификация, обфусцирование).
+* [LESS](http://lesscss.org/) – CSS препроцессор;
+* [Grunt](http://gruntjs.com/) – cборка всех js файлов в один (конкатенация, минификация, обфускация).
 
 
 ## Виджеты (блоки)
